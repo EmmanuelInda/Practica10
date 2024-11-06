@@ -11,6 +11,10 @@ public class Bomba extends Elemento implements Destruible {
 		escenario.destruirElementos(posicion, radio);
 	}
 
+	public int getRadio() {
+		return radio;
+	}
+
 	@Override
 	public String destruir() {
 		return "Boma destruida";
